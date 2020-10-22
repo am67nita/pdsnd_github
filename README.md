@@ -9,7 +9,7 @@ Bikeshare
 Python script which imports US bike share data and answers interesting questions about the data 
 by computing descriptive statistics. 
 
-/*
+#### Detailed Descriptiong
 This script is written to explore data related to bike share systems for three major cities in the United States
 —Chicago, New York City and Washington. 
 The script compares the system usage between three large cities: Chicago, New York City, and Washington, DC.
@@ -29,7 +29,7 @@ Five lines of data is display every time the user answers 'yes'. The scripts sol
 and iterating through the dataframe five rows at a time and display these rows for the user.
 
 The user decides when the script ends by answering restart 'yes' og 'no'
-*/
+
 
 ### Authors
 Anne Mette Andreassen
