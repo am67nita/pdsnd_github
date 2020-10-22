@@ -241,7 +241,7 @@ def user_stats(df, city):
         print('\nCount pr. gender:\n', counts_of_gender)
     
     else:
-        print('\nGender is not present in the data for {}.\n'.format(city))
+        print('\nGender is not present in the data for {}.\n'.format(city.title()))
 
     # TO DO: Display earliest, most recent, and most common year of birth
 
