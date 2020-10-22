@@ -31,6 +31,8 @@ and iterating through the dataframe five rows at a time and display these rows f
 The user decides when the script ends by answering restart 'yes' og 'no'
 */
 
+### Authors
+Anne Mette Andreassen
 
 ### Files used
 * bikeshare.py
