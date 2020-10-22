@@ -89,7 +89,7 @@ def load_data(city, month, day):
 def display_raw_data(city):
     """    
         Loads data for the specified city into dataframe df_print.
-        Ask user whether to see 5 lines of raw data.
+        Ask user whether to see 5 new lines of raw data.
         If the user answers 'Yes', iterate through the next five rows in dataframe
     """
     
@@ -100,7 +100,7 @@ def display_raw_data(city):
     # Load data for chosen city into dataframe
     df_print = pd.read_csv(CITY_DATA[city])
 
-    # ask user whether to see 5 lines of raw data until another answer than 'Yes' is given
+    # ask user whether to see 5 new lines of raw data until another answer than 'Yes' is given
     while see == 'Yes':
         see = input('\nWould you like to see 5 lines of raw data? Yes/No: ').title()
         if see != 'Yes':
